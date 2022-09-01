@@ -1,4 +1,4 @@
-const functions = (str)=> {
+const countString= (str)=> {
     if (!(str.length >= 1 && str.length <=10)){
         return 'Error';
     } else {
@@ -7,4 +7,4 @@ const functions = (str)=> {
     
 };
 
-module.exports =functions;
+module.exports =countString;
